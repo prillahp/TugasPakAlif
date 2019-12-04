@@ -1,0 +1,39 @@
+body
+{
+    background-color: #808080 ;
+}
+ 
+.login
+{
+    background-color: #808080;
+    width: 350px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+    border: 2px white;
+    font-size: 18px;
+}
+ 
+h3
+{
+    background-color: blue;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+}
+ 
+input
+{
+    width: 100%;
+    padding: 12px 10px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+ 
+input[type=submit]
+{
+    background-color:blue;
+    border-radius:18px;
+    color: green;
+}
