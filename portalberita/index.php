@@ -74,14 +74,14 @@
       </div>
     </div>
 
-    <?php
+   <!--  <?php
 include "koneksi4.php";
 ?>
 <?php
 $query_ambil_berita = $mysqli->query("SELECT * FROM berita ORDER BY id_berita DESC"); //query ambil data berita.
 while ($data_berita = $query_ambil_berita->fetch_array()) {
 //perulangan untuk menampilkan berita 
-?>
+?> -->
 <div class="content_area">
       <div class="main_content floatleft">
         <div class="left_coloum floatleft">
@@ -89,7 +89,7 @@ while ($data_berita = $query_ambil_berita->fetch_array()) {
 <h2 class="title" style="margin-bottom: 0px"><?php echo $data_berita['judul']; ?></h2>
 <small>Ditulis oleh : <?php echo $data_berita['penulis']; ?>, pada : <?php echo $data_berita['tanggal_posting']; ?></small>
 <p>
-<?php 
+<!-- <?php 
 if (is_file("gambar/".$data_berita['gambar']) == TRUE) {
 ?>
 <img src="gambar/<?php echo $data_berita['gambar']; ?>" style="width: 100px; height: 75px; margin: 0 10px 10px 0; display: inline; float: left">
@@ -109,7 +109,7 @@ if (is_file("gambar/".$data_berita['gambar']) == TRUE) {
 <?php 
 }
 //penutup perulangan while
-?>
+?> -->
   
     <div class="footer_bottom_area">
       <div class="footer_menu">

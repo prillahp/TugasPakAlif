@@ -425,9 +425,9 @@
     <link href="style.css" rel="stylesheet" type="text/css">
   </head>
 <body>
-  <form action="aksi_tambah_berita.php" method="post" enctype="multipart/form-data">
+  <!-- <form action="aksi_tambah_berita.php" method="post" enctype="multipart/form-data">
   <input type="hidden" name="id_berita" value="">
-  
+   -->
     <table border="0">
       <b><tr><td>Judul</td><td><input type="text" name="judul" size="80" required value=""></td></tr>
       <tr><td>Kategori</td><td>

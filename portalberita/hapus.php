@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 include "koneksi4.php";
 
 $id = $_GET['id'];
@@ -8,4 +8,4 @@ $query_hapus = mysqli_query($mysqli, "DELETE FROM berita WHERE id_berita = '$id'
 
 header("Location: beritaadmin.php");
 
-?>
+?> -->

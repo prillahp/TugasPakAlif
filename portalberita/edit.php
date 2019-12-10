@@ -1,8 +1,8 @@
-<?php 
+<!-- <?php 
 include "koneksi4.php";
 $query_ambil_berita	= $mysqli->query("SELECT * FROM berita WHERE id_berita = '".$_GET['id']."'"); //query ambil data berita.
 $data_berita 		= $query_ambil_berita->fetch_array(); 
-?>
+?> -->
 
 <html>
 <head>
@@ -423,9 +423,9 @@ $data_berita 		= $query_ambil_berita->fetch_array();
             
           </div>
         </div>
-<body>
+<body><!-- 
 	<form action="aksi_edit_berita.php" method="post" enctype="multipart/form-data">
-	<input type="hidden" name="id_berita" value="<?php echo $data_berita['id_berita']; ?>">
+	<input type="hidden" name="id_berita" value="<?php echo $data_berita['id_berita']; ?>"> -->
 	
 		<table border="0">
 			<tr><td>Judul</td><td><input type="text" name="judul" size="50" required value="<?php echo $data_berita['judul']; ?>"></td></tr>
